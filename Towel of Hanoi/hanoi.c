@@ -17,7 +17,7 @@ void hanoi(int n , char a,char b,char c)
 }
 int main()
 {
-	int n = 3;
+	int n = 5; //
 	char A = 'A', B = 'B', C = 'C';
 	printf("n = %d: ", n);
 	hanoi(n, A, B, C);
