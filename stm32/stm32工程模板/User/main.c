@@ -2,9 +2,12 @@
 
 int main()
 {
-	RCC ->APB2ENR = 0X00000010;
-	GPIOC ->CRH = 0X00300000;
-	GPIOC ->ODR = 0X00002000;
-	while(1);
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC,ENABLE);
+	
+	while(1)
+	{
+	
+	}
 	return 0;
 }
+ 
